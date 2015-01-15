@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>registration</title>
+
+    <!-- The stylesheet -->
+    <link rel="stylesheet" href="css/registration.css"/>
+
+    <!--[if lt IE 9]>
+    <script src="js/trunk_html5.js"></script>
+    <![endif]-->
+    <script src="js/registration.js"></script>
+    <script src="js/jquery.complexify.js"></script>
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1>请注册您的账户!</h1>
+
+    <form class="" method="post" action="">
+
+        <div class="row email">
+            <input type="text" id="email" name="email" placeholder="Email"/>
+        </div>
+
+        <div class="row pass">
+            <input type="password" id="password1" name="password1" placeholder="Password"/>
+        </div>
+
+        <div class="row pass">
+            <input type="password" id="password2" name="password2" placeholder="Password (repeat)" disabled="true"/>
+        </div>
+
+        <!-- The rotating arrow -->
+        <div class="arrowCap"></div>
+        <div class="arrow"></div>
+
+        <p class="meterText">密码强度</p>
+
+        <input type="submit" value="免费注册"/>
+
+    </form>
+</div>
+
+<!-- JavaScript includes - jQuery, the complexify plugin and our own script.js -->
+<!--<script src="js/jquery1_7_2_min.js"></script>-->
+
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+
+</body>
+</html>
