@@ -65,7 +65,7 @@ h1{
 #main form{
     width:440px;
     height:450px;
-    background:url('http://i33.tinypic.com/24eng8x.png') no-repeat;
+    background:url('../images/registration_form.png') no-repeat;
     padding-top: 50px;
 }
 
@@ -82,7 +82,7 @@ h1{
     top: 8px;
     width:32px;
     height:32px;
-    background:url('http://i38.tinypic.com/33c4s9c.png') no-repeat;
+    background:url('../images/registration_tf.png') no-repeat;
 }
 
 #main form .row.error:after{
@@ -93,7 +93,7 @@ h1{
 #main form input[type=password]{
 
     border:none;
-    background:url('http://i34.tinypic.com/2qm0ndc.png') no-repeat top left;
+    background:url('../images/registration_fm_bg.png') no-repeat top left;
     font:14px 'Segoe UI','Arial',sans-serif;
     color:#888;
 
@@ -183,7 +183,7 @@ h1{
 
 
 #main form .arrow{
-    background: url("http://i33.tinypic.com/14txydw.jpg") no-repeat -10px 0;
+    background: url("../images/registration_pointer.jpg") no-repeat -10px 0;
     height: 120px;
     left: 214px;
     position: absolute;
@@ -208,7 +208,7 @@ h1{
 }
 
 #main form .arrowCap{
-    background: url("http://i33.tinypic.com/14txydw.jpg") no-repeat -43px 0;
+    background: url("../images/registration_pointer.jpg") no-repeat -43px 0;
     height: 20px;
     left: 208px;
     position: absolute;
