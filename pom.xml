@@ -11,6 +11,7 @@
     <name>RESTful-TSIM</name>
 
     <dependencies>
+
         <dependency>
             <groupId>javax.xml.ws</groupId>
             <artifactId>jaxws-api</artifactId>
