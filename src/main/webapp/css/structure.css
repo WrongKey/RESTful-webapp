@@ -10,6 +10,9 @@
   ✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰
 
 */
+html{
+    background:url('../images/registration_bg.jpg') repeat center top #826e79;
+}
 body{
     background:#eff3f6;
 }
